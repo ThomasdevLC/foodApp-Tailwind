@@ -42,13 +42,33 @@
 
       <div class="mt-8">
         <!-- cards go here -->
-        <div class="rounded bg-white border-gray-200 shadow-md overflow-hidden relative">
+        <div class="card">
           <img src="../assets/images/stew.jpg" alt="stew" class="h-32 sm:h-48 w-full object-cover" />
           <div class="m-4">
             <span class="font-bold">5 Bean Chili Stew</span>
             <span class="block text-gray-500 text-sm">Recipe by Mario</span>
           </div>
-          <div class="absolute top-0 ml-2 mt-2 p-2 bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full">
+          <div class="badge">
+            <span>25 mins</span>
+          </div>
+        </div>
+        <div class="card">
+          <img src="../assets/images/noodles.jpg" alt="stew" class="h-32 sm:h-48 w-full object-cover" />
+          <div class="m-4">
+            <span class="font-bold">Chinese Noodles</span>
+            <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+          </div>
+          <div class="badge">
+            <span>25 mins</span>
+          </div>
+        </div>
+        <div class="card">
+          <img src="../assets/images/curry.jpg" alt="stew" class="h-32 sm:h-48 w-full object-cover" />
+          <div class="m-4">
+            <span class="font-bold">Curry</span>
+            <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+          </div>
+          <div class="badge">
             <span>25 mins</span>
           </div>
         </div>
